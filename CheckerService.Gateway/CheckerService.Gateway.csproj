@@ -7,7 +7,22 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.3"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="11.0.0-preview.1.26104.118" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="11.0.0-preview.1.26104.118" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.4" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="10.1.4" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="10.1.4" />
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="10.1.4" />
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.1.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Implementations\CheckerService.Core\CheckerService.Core.csproj" />
+      <ProjectReference Include="..\Implementations\CheckerService.DAL\CheckerService.DAL.csproj" />
+      <ProjectReference Include="..\Implementations\Clients\BinanceClient\BinanceClient.csproj" />
+      <ProjectReference Include="..\Implementations\Clients\BybitClient\BybitClient.csproj" />
     </ItemGroup>
 
 </Project>

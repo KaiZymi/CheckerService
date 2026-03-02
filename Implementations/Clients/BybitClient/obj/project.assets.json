@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Exchanges.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Exchanges.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Exchanges.Abstractions.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Exchanges.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../../../Abstractions/Exchanges.Abstractions/Exchanges.Abstractions.csproj",
+      "msbuildProject": "../../../Abstractions/Exchanges.Abstractions/Exchanges.Abstractions.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Exchanges.Abstractions >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\markv\\.nuget\\packages\\": {},
@@ -36,7 +55,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\markv\\RiderProjects\\CheckerService\\Abstractions\\Exchanges.Abstractions\\Exchanges.Abstractions.csproj": {
+              "projectPath": "C:\\Users\\markv\\RiderProjects\\CheckerService\\Abstractions\\Exchanges.Abstractions\\Exchanges.Abstractions.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
