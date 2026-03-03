@@ -12,14 +12,14 @@ namespace CheckerService.Gateway.Controllers;
 public class PriceController : ControllerBase
 {
     [HttpGet]
-    public async Task<ActionResult<int>> GetPrice(
+    public async Task<ActionResult<int>> GetPriceFromExchange(
         [FromQuery] PriceDto priceDto,
         [FromServices] IMapper mapper,
         [FromServices] IGetExchangePriceQueryOperation queryOperations,
         CancellationToken ct)
     {
         var operationModel = mapper.Map<GetPriceQueryOperationModel>(priceDto);
-        var result = await queryOperations.GetPrice(operationModel, ct);
+        var result = await queryOperations.GetPriceAsync(operationModel, ct);
         if (result.IsFailure)
             return result.Error.ToResponse();
         return result.Value;

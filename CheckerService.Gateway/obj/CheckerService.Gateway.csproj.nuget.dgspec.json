@@ -1088,6 +1088,10 @@
               "target": "Package",
               "version": "[11.0.0-preview.1.26104.118, )"
             },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[11.0.0-preview.1.26104.118, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[10.1.4, )"
@@ -1599,6 +1603,16 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[11.0.0-preview.1.26104.118, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[11.0.0-preview.1.26104.118, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -1940,6 +1954,12 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[11.0.0-preview.1.26104.118, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -2281,6 +2301,16 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[11.0.0-preview.1.26104.118, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[11.0.0-preview.1.26104.118, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -2622,6 +2652,16 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[11.0.0-preview.1.26104.118, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[11.0.0-preview.1.26104.118, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

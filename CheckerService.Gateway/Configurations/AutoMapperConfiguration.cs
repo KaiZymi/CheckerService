@@ -1,5 +1,5 @@
 using AutoMapper;
-using CheckerService.Gateway.MappingProfiles;
+using CheckerService.Gateway.Profiles;
 
 namespace CheckerService.Gateway.Configurations;
 

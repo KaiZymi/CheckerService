@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MYAQipz2S7o=",
+  "dgSpecHash": "Rx1QH9Ujavk=",
   "success": true,
   "projectFilePath": "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\Clients\\BybitClient\\BybitClient.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\markv\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\11.0.0-preview.1.26104.118\\microsoft.extensions.dependencyinjection.abstractions.11.0.0-preview.1.26104.118.nupkg.sha512",
+    "C:\\Users\\markv\\.nuget\\packages\\microsoft.extensions.options\\11.0.0-preview.1.26104.118\\microsoft.extensions.options.11.0.0-preview.1.26104.118.nupkg.sha512",
+    "C:\\Users\\markv\\.nuget\\packages\\microsoft.extensions.primitives\\11.0.0-preview.1.26104.118\\microsoft.extensions.primitives.11.0.0-preview.1.26104.118.nupkg.sha512"
+  ],
   "logs": []
 }

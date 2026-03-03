@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CheckerService.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ab847c159da83244a5ed5bfafab0db8d103e348")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47230b7101cda48278a523abdd788496b898d116")]
 [assembly: System.Reflection.AssemblyProductAttribute("CheckerService.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CheckerService.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
