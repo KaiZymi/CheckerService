@@ -1,10 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "98Ce4U6dw50=",
+  "dgSpecHash": "pjI7iRUeycE=",
   "success": true,
   "projectFilePath": "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\Clients\\BinanceClient\\BinanceClient.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\markv\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.3\\microsoft.entityframeworkcore.10.0.3.nupkg.sha512",
+    "C:\\Users\\markv\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.3\\microsoft.entityframeworkcore.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\markv\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.3\\microsoft.entityframeworkcore.analyzers.10.0.3.nupkg.sha512",
+    "C:\\Users\\markv\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.3\\microsoft.extensions.caching.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\markv\\.nuget\\packages\\microsoft.extensions.caching.memory\\10.0.3\\microsoft.extensions.caching.memory.10.0.3.nupkg.sha512",
+    "C:\\Users\\markv\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.3\\microsoft.extensions.dependencyinjection.10.0.3.nupkg.sha512",
     "C:\\Users\\markv\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\11.0.0-preview.1.26104.118\\microsoft.extensions.dependencyinjection.abstractions.11.0.0-preview.1.26104.118.nupkg.sha512",
+    "C:\\Users\\markv\\.nuget\\packages\\microsoft.extensions.logging\\10.0.3\\microsoft.extensions.logging.10.0.3.nupkg.sha512",
+    "C:\\Users\\markv\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.3\\microsoft.extensions.logging.abstractions.10.0.3.nupkg.sha512",
     "C:\\Users\\markv\\.nuget\\packages\\microsoft.extensions.options\\11.0.0-preview.1.26104.118\\microsoft.extensions.options.11.0.0-preview.1.26104.118.nupkg.sha512",
     "C:\\Users\\markv\\.nuget\\packages\\microsoft.extensions.primitives\\11.0.0-preview.1.26104.118\\microsoft.extensions.primitives.11.0.0-preview.1.26104.118.nupkg.sha512"
   ],

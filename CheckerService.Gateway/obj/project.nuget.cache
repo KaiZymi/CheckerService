@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "U2j9k/t+fKI=",
+  "dgSpecHash": "FAsItGG8p7E=",
   "success": true,
   "projectFilePath": "C:\\Users\\markv\\RiderProjects\\CheckerService\\CheckerService.Gateway\\CheckerService.Gateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\markv\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\markv\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\markv\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\markv\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.3\\microsoft.entityframeworkcore.10.0.3.nupkg.sha512",
+    "C:\\Users\\markv\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.3\\microsoft.entityframeworkcore.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\markv\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.3\\microsoft.entityframeworkcore.analyzers.10.0.3.nupkg.sha512",
     "C:\\Users\\markv\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
     "C:\\Users\\markv\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\11.0.0-preview.1.26104.118\\microsoft.extensions.dependencyinjection.11.0.0-preview.1.26104.118.nupkg.sha512",
     "C:\\Users\\markv\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\11.0.0-preview.1.26104.118\\microsoft.extensions.dependencyinjection.abstractions.11.0.0-preview.1.26104.118.nupkg.sha512",
