@@ -21,8 +21,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Implementations\CheckerService.Core\CheckerService.Core.csproj" />
-      <ProjectReference Include="..\Implementations\CheckerService.DAL\CheckerService.DAL.csproj" />
+      <ProjectReference Include="..\Implementations\Core\Core.csproj" />
+      <ProjectReference Include="..\Implementations\DAL\DAL.csproj" />
       <ProjectReference Include="..\Implementations\Clients\BinanceClient\BinanceClient.csproj" />
       <ProjectReference Include="..\Implementations\Clients\BybitClient\BybitClient.csproj" />
     </ItemGroup>

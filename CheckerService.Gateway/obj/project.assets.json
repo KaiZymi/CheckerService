@@ -266,6 +266,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "AutoMapper": "12.0.1",
           "Exchanges.Abstractions": "1.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.3",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "11.0.0-preview.1.26104.118",
@@ -282,6 +283,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "AutoMapper": "12.0.1",
           "Exchanges.Abstractions": "1.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.3",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "11.0.0-preview.1.26104.118",
@@ -294,10 +296,11 @@
           "bin/placeholder/BybitClient.dll": {}
         }
       },
-      "CheckerService.Core/1.0.0": {
+      "Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "AutoMapper": "12.0.1",
           "Core.Abstractions": "1.0.0",
           "DAL.Abstractions": "1.0.0",
           "Exchanges.Abstractions": "1.0.0",
@@ -306,25 +309,10 @@
           "Microsoft.Extensions.Options": "11.0.0-preview.1.26104.118"
         },
         "compile": {
-          "bin/placeholder/CheckerService.Core.dll": {}
+          "bin/placeholder/Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CheckerService.Core.dll": {}
-        }
-      },
-      "CheckerService.DAL/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "DAL.Abstractions": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "10.0.3",
-          "Microsoft.Extensions.Options": "11.0.0-preview.1.26104.118"
-        },
-        "compile": {
-          "bin/placeholder/CheckerService.DAL.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CheckerService.DAL.dll": {}
+          "bin/placeholder/Core.dll": {}
         }
       },
       "Core.Abstractions/1.0.0": {
@@ -335,6 +323,21 @@
         },
         "runtime": {
           "bin/placeholder/Core.Abstractions.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "DAL.Abstractions": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "10.0.3",
+          "Microsoft.Extensions.Options": "11.0.0-preview.1.26104.118"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "DAL.Abstractions/1.0.0": {
@@ -967,20 +970,20 @@
       "path": "../Implementations/Clients/BybitClient/BybitClient.csproj",
       "msbuildProject": "../Implementations/Clients/BybitClient/BybitClient.csproj"
     },
-    "CheckerService.Core/1.0.0": {
+    "Core/1.0.0": {
       "type": "project",
-      "path": "../Implementations/CheckerService.Core/CheckerService.Core.csproj",
-      "msbuildProject": "../Implementations/CheckerService.Core/CheckerService.Core.csproj"
-    },
-    "CheckerService.DAL/1.0.0": {
-      "type": "project",
-      "path": "../Implementations/CheckerService.DAL/CheckerService.DAL.csproj",
-      "msbuildProject": "../Implementations/CheckerService.DAL/CheckerService.DAL.csproj"
+      "path": "../Implementations/Core/Core.csproj",
+      "msbuildProject": "../Implementations/Core/Core.csproj"
     },
     "Core.Abstractions/1.0.0": {
       "type": "project",
       "path": "../Abstractions/Core.Abstractions/Core.Abstractions.csproj",
       "msbuildProject": "../Abstractions/Core.Abstractions/Core.Abstractions.csproj"
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../Implementations/DAL/DAL.csproj",
+      "msbuildProject": "../Implementations/DAL/DAL.csproj"
     },
     "DAL.Abstractions/1.0.0": {
       "type": "project",
@@ -998,8 +1001,8 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "BinanceClient >= 1.0.0",
       "BybitClient >= 1.0.0",
-      "CheckerService.Core >= 1.0.0",
-      "CheckerService.DAL >= 1.0.0",
+      "Core >= 1.0.0",
+      "DAL >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 10.0.3",
       "Microsoft.EntityFrameworkCore >= 10.0.3",
       "Microsoft.Extensions.DependencyInjection >= 11.0.0-preview.1.26104.118",
@@ -1042,17 +1045,17 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\CheckerService.Core\\CheckerService.Core.csproj": {
-              "projectPath": "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\CheckerService.Core\\CheckerService.Core.csproj"
-            },
-            "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\CheckerService.DAL\\CheckerService.DAL.csproj": {
-              "projectPath": "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\CheckerService.DAL\\CheckerService.DAL.csproj"
-            },
             "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\Clients\\BinanceClient\\BinanceClient.csproj": {
               "projectPath": "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\Clients\\BinanceClient\\BinanceClient.csproj"
             },
             "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\Clients\\BybitClient\\BybitClient.csproj": {
               "projectPath": "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\Clients\\BybitClient\\BybitClient.csproj"
+            },
+            "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\Core\\Core.csproj"
+            },
+            "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\DAL\\DAL.csproj"
             }
           }
         }

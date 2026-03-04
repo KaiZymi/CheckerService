@@ -8,7 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstractions", "Abstraction
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Abstractions", "Abstractions\Core.Abstractions\Core.Abstractions.csproj", "{B6BC8834-1476-4909-9D8A-3BB0953177A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckerService.Core", "Implementations\CheckerService.Core\CheckerService.Core.csproj", "{AA07CDFF-781B-456D-BB25-1A3C4B6BD84A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Implementations\Core\Core.csproj", "{AA07CDFF-781B-456D-BB25-1A3C4B6BD84A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{A762BEB7-F2FD-4ECC-B861-B6A02494B18B}"
 EndProject
@@ -20,7 +20,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exchanges.Abstractions", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL.Abstractions", "Abstractions\DAL.Abstractions\DAL.Abstractions.csproj", "{6691186D-ED47-46E4-9FD2-10AB4FA330F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckerService.DAL", "Implementations\CheckerService.DAL\CheckerService.DAL.csproj", "{76E522D5-D204-43AD-9507-9825B2981E95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "Implementations\DAL\DAL.csproj", "{76E522D5-D204-43AD-9507-9825B2981E95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

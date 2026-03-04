@@ -1,4 +1,7 @@
 using AutoMapper;
+using BinanceClient;
+using BybitClient;
+using CheckerService.Core;
 using CheckerService.Gateway.Profiles;
 
 namespace CheckerService.Gateway.Configurations;
@@ -10,6 +13,9 @@ public static class AutoMapperConfiguration
         var mapperConfig = new MapperConfiguration(mc =>
         {
             mc.ConfigureGatewayProfiles();
+            mc.ConfigureCoreProfiles();
+            mc.ConfigureBybitProfiles();
+            mc.ConfigureBinanceProfiles();
         });
         mapperConfig.AssertConfigurationIsValid();
         IMapper mapper = mapperConfig.CreateMapper();

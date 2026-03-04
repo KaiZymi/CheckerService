@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net10.0": {
+      "AutoMapper/12.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore/10.0.3": {
         "type": "package",
         "dependencies": {
@@ -226,6 +239,21 @@
     }
   },
   "libraries": {
+    "AutoMapper/12.0.1": {
+      "sha512": "hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
+      "type": "package",
+      "path": "automapper/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.12.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.dll",
+        "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
     "Microsoft.EntityFrameworkCore/10.0.3": {
       "sha512": "CDEImwD4A7BseABJMCpLZnhfFjmPY/bHwhhS70elc6gLI/bYUEOhxWt7PmaNGYGhIEzOnStlCy5QcVb+8dod5Q==",
       "type": "package",
@@ -581,6 +609,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "AutoMapper >= 12.0.1",
       "Core.Abstractions >= 1.0.0",
       "DAL.Abstractions >= 1.0.0",
       "Exchanges.Abstractions >= 1.0.0",
@@ -596,11 +625,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\CheckerService.Core\\CheckerService.Core.csproj",
-      "projectName": "CheckerService.Core",
-      "projectPath": "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\CheckerService.Core\\CheckerService.Core.csproj",
+      "projectUniqueName": "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\Core\\Core.csproj",
+      "projectName": "Core",
+      "projectPath": "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\markv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\CheckerService.Core\\obj\\",
+      "outputPath": "C:\\Users\\markv\\RiderProjects\\CheckerService\\Implementations\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -647,6 +676,10 @@
       "net10.0": {
         "targetAlias": "net10.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[12.0.1, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[10.0.3, )"
