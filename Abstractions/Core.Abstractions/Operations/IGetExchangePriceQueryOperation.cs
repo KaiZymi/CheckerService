@@ -4,5 +4,5 @@ namespace Core.Abstractions.Operations;
 
 public interface IGetExchangePriceQueryOperation
 {
-    Task<Result<int>> GetPriceAsync(GetPriceQueryOperationModel getPriceOperationModel, CancellationToken ct);
+    Task<Result<GetPriceQueryResultOperationModel>> GetPriceAsync(GetPriceQueryOperationModel getPriceOperationModel, CancellationToken ct);
 }

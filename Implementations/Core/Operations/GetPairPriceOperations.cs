@@ -1,13 +1,21 @@
 using Core.Abstractions;
 using Core.Abstractions.Models;
 using Core.Abstractions.Operations;
+using Exchanges.Abstractions;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace CheckerService.Core.Operations;
 
-public sealed class GetPriceOperations : IGetExchangePriceQueryOperation
+public sealed class GetPriceOperations(IServiceProvider provider) : IGetExchangePriceQueryOperation
 {
-    public Task<Result<int>> GetPriceAsync(GetPriceQueryOperationModel getPriceOperationModel, CancellationToken ct)
+    public async Task<Result<GetPriceQueryResultOperationModel>> GetPriceAsync(
+        GetPriceQueryOperationModel getPriceOperationModel, CancellationToken ct)
     {
-        throw new NotImplementedException();
+        var client = provider.GetRequiredKeyedService<IExchangeClient>(getPriceOperationModel.ExchangeName);
+        var result = await client.GetExchangePriceAsync(getPriceOperationModel.ExchangeName, ct);
+        return new GetPriceQueryResultOperationModel()
+        {
+            Price = result
+        };
     }
 }

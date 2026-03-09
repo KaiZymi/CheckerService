@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BinanceClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5c16d72bce20837a95641c0918ba3d09d80f250")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b9772f48071ad95a7a8563f33618ea16704a830")]
 [assembly: System.Reflection.AssemblyProductAttribute("BinanceClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BinanceClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
