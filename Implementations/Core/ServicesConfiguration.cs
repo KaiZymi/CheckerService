@@ -1,10 +1,10 @@
 using AutoMapper;
-using CheckerService.Core.MappingProfiles;
-using CheckerService.Core.Operations;
 using Core.Abstractions.Operations;
+using CryptoTrackerService.Core.MappingProfiles;
+using CryptoTrackerService.Core.Operations;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CheckerService.Core;
+namespace CryptoTrackerService.Core;
 
 public static class ServiceConfiguration
 {

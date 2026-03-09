@@ -4,7 +4,7 @@ using Core.Abstractions.Operations;
 using Exchanges.Abstractions;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CheckerService.Core.Operations;
+namespace CryptoTrackerService.Core.Operations;
 
 public sealed class GetPriceOperations(IServiceProvider provider) : IGetExchangePriceQueryOperation
 {

@@ -1,6 +1,6 @@
 using AutoMapper;
 
-namespace CheckerService.Core.MappingProfiles;
+namespace CryptoTrackerService.Core.MappingProfiles;
 
 internal class CoreProfile : Profile
 {

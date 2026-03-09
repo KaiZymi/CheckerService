@@ -1,4 +1,4 @@
-namespace CheckerService.DAL;
+namespace CryptoTrackerService.DAL;
 
 public class ServicesConfiguration
 {
