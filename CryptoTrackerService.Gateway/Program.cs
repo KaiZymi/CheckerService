@@ -19,6 +19,7 @@ builder.Services.ConfigureCoreBybitServices(nameof(ExchangeTypeClientEnum.ByBit)
 
 var app = builder.Build();
 
+app.Services.ValidateMappingProfiles();
 app.ConfigureSwaggerPipeline();
 app.UseHttpsRedirection();
 app.UseAuthorization();
