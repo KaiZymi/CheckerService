@@ -1,6 +1,6 @@
 namespace Exchanges.Abstractions.Models;
 
-public class PriceExchangeModel
+public sealed record PriceExchangeModel
 {
-    public decimal Price { get; set; }
+    public required decimal Price { get; init; }
 }

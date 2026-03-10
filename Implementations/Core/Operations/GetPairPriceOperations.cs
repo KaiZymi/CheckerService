@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace CryptoTrackerService.Core.Operations;
 
-public sealed class GetPriceOperations(
+internal sealed class GetPriceOperations(
     IServiceProvider provider,
     IMapper mapper
 ) : IGetPriceQueryOperation

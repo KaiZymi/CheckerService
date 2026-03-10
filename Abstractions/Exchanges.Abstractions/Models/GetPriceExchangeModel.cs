@@ -1,6 +1,6 @@
 namespace Exchanges.Abstractions.Models;
 
-public class GetPriceExchangeModel
+public sealed record GetPriceExchangeModel
 {
-    public required string Symbol { get; set; }
+    public required string PairName { get; init; }
 }

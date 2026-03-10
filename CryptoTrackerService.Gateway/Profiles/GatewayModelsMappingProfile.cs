@@ -4,7 +4,7 @@ using CryptoTrackerService.Gateway.Models;
 
 namespace CryptoTrackerService.Gateway.Profiles;
 
-public class GatewayModelsMappingProfile : Profile
+internal sealed class GatewayModelsMappingProfile : Profile
 {
     public GatewayModelsMappingProfile()
     {

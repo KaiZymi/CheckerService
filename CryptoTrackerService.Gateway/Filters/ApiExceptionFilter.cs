@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 namespace CryptoTrackerService.Gateway.Filters;
 
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
-public class ApiExceptionFilter(ILogger<ApiExceptionFilter> logger) : ExceptionFilterAttribute
+public sealed class ApiExceptionFilter(ILogger<ApiExceptionFilter> logger) : ExceptionFilterAttribute
 {
     public override void OnException(ExceptionContext context)
     {

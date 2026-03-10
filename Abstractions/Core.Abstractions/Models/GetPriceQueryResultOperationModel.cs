@@ -1,6 +1,6 @@
 namespace Core.Abstractions.Models;
 
-public sealed class GetPriceQueryResultOperationModel
+public sealed record GetPriceQueryResultOperationModel
 {
     public required decimal Price { get; set; }
 }
