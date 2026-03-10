@@ -22,6 +22,6 @@ public static class ServiceConfiguration
     
     public static void ConfigureBinanceServices(this IServiceCollection services, string key)
     {
-        services.AddKeyedScoped<IExchangeClient, BinanceClient>(key);
+        services.AddKeyedScoped<IPriceExchangeClient, BinanceClient>(key);
     }
 }

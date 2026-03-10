@@ -15,7 +15,7 @@ public class PriceController : ControllerBase
     public async Task<ActionResult<decimal>> GetPriceFromExchange(
         [FromQuery] PriceDto priceDto,
         [FromServices] IMapper mapper,
-        [FromServices] IGetExchangePriceQueryOperation queryOperations,
+        [FromServices] IGetPriceQueryOperation queryOperations,
         CancellationToken ct)
     {
         var operationModel = mapper.Map<GetPriceQueryOperationModel>(priceDto);
