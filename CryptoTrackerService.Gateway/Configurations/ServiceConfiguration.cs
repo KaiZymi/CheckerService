@@ -1,5 +1,9 @@
+using System.Runtime.CompilerServices;
 using AutoMapper;
+
 using CryptoTrackerService.Gateway.Profiles;
+
+[assembly: InternalsVisibleTo("CryptoTrackerService.Tests")]
 
 namespace CryptoTrackerService.Gateway.Configurations;
 

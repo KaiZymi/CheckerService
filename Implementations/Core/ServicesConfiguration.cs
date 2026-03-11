@@ -1,9 +1,11 @@
+using System.Runtime.CompilerServices;
 using AutoMapper;
 using Core.Abstractions.Operations;
 using CryptoTrackerService.Core.MappingProfiles;
 using CryptoTrackerService.Core.Operations;
 using Microsoft.Extensions.DependencyInjection;
 
+[assembly: InternalsVisibleTo("CryptoTrackerService.Tests")]
 namespace CryptoTrackerService.Core;
 
 public static class ServiceConfiguration

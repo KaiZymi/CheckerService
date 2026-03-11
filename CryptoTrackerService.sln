@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL.Abstractions", "Abstrac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "Implementations\DAL\DAL.csproj", "{76E522D5-D204-43AD-9507-9825B2981E95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoTrackerService.Tests", "CryptoTrackerService.Tests\CryptoTrackerService.Tests.csproj", "{26B35922-025E-4967-AE79-5E413F16E472}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,6 +62,10 @@ Global
 		{76E522D5-D204-43AD-9507-9825B2981E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76E522D5-D204-43AD-9507-9825B2981E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76E522D5-D204-43AD-9507-9825B2981E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26B35922-025E-4967-AE79-5E413F16E472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B35922-025E-4967-AE79-5E413F16E472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B35922-025E-4967-AE79-5E413F16E472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B35922-025E-4967-AE79-5E413F16E472}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B6BC8834-1476-4909-9D8A-3BB0953177A9} = {2C50F7D5-8B45-4B5B-8030-54049276655E}

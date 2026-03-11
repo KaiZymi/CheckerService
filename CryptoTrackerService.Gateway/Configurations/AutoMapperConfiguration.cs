@@ -1,9 +1,10 @@
+using System.Runtime.CompilerServices;
 using AutoMapper;
 using BinanceClient;
 using BybitClient;
 using CryptoTrackerService.Core;
-using CryptoTrackerService.Gateway.Profiles;
 
+[assembly: InternalsVisibleTo("CryptoTrackerService.Tests")]
 namespace CryptoTrackerService.Gateway.Configurations;
 
 internal static class AutoMapperConfiguration
