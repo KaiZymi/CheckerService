@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace CryptoTrackerService.Tests.Fixtures;
 
-public sealed class OperationFixture : IDisposable
+public sealed class OperationFixture
 {
     private IServiceCollection Services { get; set;}
     public IServiceProvider Provider { get; private set;}
@@ -33,10 +33,6 @@ public sealed class OperationFixture : IDisposable
                 Price = 1
             });
         }
-    }
-    
-    public void Dispose()
-    {
     }
 }
 

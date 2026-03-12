@@ -6,11 +6,14 @@ using Xunit;
 
 namespace CryptoTrackerService.Tests;
 
-public class GetPriceOperationTests(OperationFixture fixture) : IClassFixture<OperationFixture>
+public class GetPriceOperationTests
 {
     [Fact]
     public async Task GetPriceAsync_ShouldReturnOne_WhenExchangeReturnsOne()
     {
+
+        var fixture = new OperationFixture();
+        
         // Arrange
         var operation = fixture.Provider.GetRequiredService<IGetPriceQueryOperation>();
         var model = new GetPriceQueryOperationModel
