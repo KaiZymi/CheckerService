@@ -8,7 +8,7 @@ namespace CryptoTrackerService.Tests.Fixtures;
 
 public sealed class OperationFixture
 {
-    private IServiceCollection Services { get; set;}
+    public IServiceCollection Services { get; set;}
     public IServiceProvider Provider { get; private set;}
     
     public OperationFixture()
@@ -22,17 +22,6 @@ public sealed class OperationFixture
         Services.AddKeyedSingleton<IPriceExchangeClient, TestPriceExchangeClient>("TestExchange");
         
         Provider = Services.BuildServiceProvider();
-    }
-    
-    class TestPriceExchangeClient : IPriceExchangeClient
-    {
-        public Task<PriceExchangeModel> GetPriceQueryAsync(GetPriceExchangeModel getPriceModel)
-        {
-            return Task.FromResult(new PriceExchangeModel
-            {
-                Price = 1
-            });
-        }
     }
 }
 

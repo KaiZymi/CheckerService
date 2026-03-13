@@ -3,7 +3,7 @@ using CryptoTrackerService.Gateway.Configurations;
 
 namespace CryptoTrackerService.Tests.Fixtures;
 
-internal sealed class AutoMapperDiFixture : IDisposable
+public sealed class AutoMapperDiFixture : IDisposable
 {
     public IServiceCollection? Services { get; private set; }
     public IServiceProvider? Provider { get; private set; }
